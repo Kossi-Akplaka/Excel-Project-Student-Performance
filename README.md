@@ -10,22 +10,23 @@
 * Additionally, each discipline holds a specific credit weight (Math - 4, Physics - 4, Biology - 3, Chemistry - 2, Spanish - 2, Literature - 3), summing up to a total of 18 credits.
 
 
+## Data and Packages
+* Data available: https://nces.ed.gov/datalab/
+* Packages: Excel Power Query, Excel pre-defined and complex formulas, Pivot Table, Conditional formatting
 
 
+## Data Analysis
+* Power Query to join 6 discipines tables into a single table 'Student Data'
+* Power query to merge 'Student Data' table and Professors and Credits data
+* Excel formulas (If, Count, conditional formatting, xlookup for search) to clean the data and find the average score, total weight score
+* Pivot table to summarize the data and utilize calculated field to calculate to weighted mean score
+* Complex Excel formula to 
 
 
  ![Report Image](report_image.png)
 
-## Data and packages
-* Data: https://www.kaggle.com/datasets/austinreese/usa-housing-listings
-* Packages: Pandas, Numpy, Matplotlib, Seaborn, Pickle
 
-## Initial Features
-       * 'id', 'url', 'region', 'region_url', 'price', 'type', 'sqfeet', 'beds',
-       * 'baths', 'cats_allowed', 'dogs_allowed', 'smoking_allowed',
-       * 'wheelchair_access', 'electric_vehicle_charge', 'comes_furnished',
-       * 'laundry_options', 'parking_options', 'image_url', 'description', 'lat',
-       * 'long', 'state'
+
        
  ## Data Cleaning
  * Check for missing values
