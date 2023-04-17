@@ -20,49 +20,10 @@
 * Power query to merge 'Student Data' table and Professors and Credits data
 * Excel formulas (If, Count, conditional formatting, xlookup for search) to clean the data and find the average score, total weight score
 * Pivot table to summarize the data and utilize calculated field to calculate to weighted mean score
-* Complex Excel formula to 
-
-
- ![Report Image](report_image.png)
+* Complex Excel formula to find the percentage of students achieving the 80% goal
+* Filter the data by Class to find the percentage of student underperforming in each class
 
 
 
-       
- ## Data Cleaning
- * Check for missing values
- * Check for the data types
- * Drop features that don't impact the target variable
- * Dimensionality reduction
- * Outliers removal
  
 
-## Feature understanding
-### I looked at the distributions of the data for various features.
-
-  ![Sqfeet Distribution](sqfeet_distribution.png)
-
-  
-  
-## Feature relationship
-# Power Bi
-### Table data
-* Table 1: https://www.kaggle.com/datasets/austinreese/usa-housing-listings
-* Table 2: https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_
-### Visualization
-* Used the Power Query Editor to transform, analyze, and clean the data
-* Used Model View to join two tables
-* Used Report View to plot charts, tables, and maps and to implement filters, slicers, and drill-throughs 
-  
- 
- # Model Building
- ### Label Encoding with OneHotEncoding
- ### Split the data between features and target variable 'Price'
- ### Tuned hyperparameters and evaluated model performance using the R-squared as a metric:
- 
- 
- # Model performance: the Decision Tree regressor model outperformed the linear regression model models on the test and validation sets
- ### Linear Regression:  R^2 = 74%
- ### Decision Tree Regressor: R^2 = 82%
- 
- 
- # Saved the model with Pickle for future use
