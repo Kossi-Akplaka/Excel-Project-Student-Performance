@@ -23,6 +23,16 @@
 * Complex Excel formula to find the percentage of students achieving the 80% goal
 * Filter the data by Class to find the percentage of student underperforming in each class
 
+## Data Summary
+### According to the calculations, 88% of students have an average score of over 80 in all subjects.
+
+* Physics has the smallest proportion of students with an average score above 80, at 68.50%.
+* Biology has the largest proportion of students with an average score above 80, at 81%.
+* In Chemistry, Mathematics, Spanish, and Literature, the proportions of students with an average score above 80 are 79.50%, 75.25%, 78.25%, and 80.25%, respectively.
+
+
+
+
 
 
  
